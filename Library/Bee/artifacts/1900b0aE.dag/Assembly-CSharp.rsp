@@ -388,6 +388,7 @@
 "Assets/Scripts/PlayButton.cs"
 "Assets/Scripts/RacketPlayer1.cs"
 "Assets/Scripts/RacketPlayer2.cs"
+"Assets/Scripts/ScoreController.cs"
 -langversion:9.0
 
 /deterministic

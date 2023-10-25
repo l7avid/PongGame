@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollisionController : MonoBehaviour
 {
     public BallMovement ballMovement;
+    public ScoreController scoreController;
 
     void BounceFromRacket(Collision2D collision)
     {
@@ -40,10 +41,12 @@ public class CollisionController : MonoBehaviour
         else if(collision.gameObject.name == "LeftWall")
         {
             Debug.Log("Collision with left wall");
+            this.scoreController.GoalPlayer2();
         }
         else if (collision.gameObject.name == "RightWall")
         {
             Debug.Log("Collision with right wall");
+            this.scoreController.GoalPlayer1();
         }
     }
 }
