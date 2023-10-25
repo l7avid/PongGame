@@ -61,11 +61,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SoundController.cs" />
     <Compile Include="Assets\Scripts\RacketPlayer1.cs" />
+    <Compile Include="Assets\Scripts\OnePlayerButton.cs" />
+    <Compile Include="Assets\Scripts\BackToMainMenuButton.cs" />
+    <Compile Include="Assets\Scripts\GameOverSoundController.cs" />
+    <Compile Include="Assets\Scripts\MainMenuSoundController.cs" />
     <Compile Include="Assets\Scripts\ScoreController.cs" />
-    <Compile Include="Assets\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scripts\BallMovement.cs" />
     <Compile Include="Assets\Scripts\CollisionController.cs" />
     <Compile Include="Assets\Scripts\RacketPlayer2.cs" />
+    <Compile Include="Assets\Scripts\TwoPlayerButton.cs" />
+    <Compile Include="Assets\Scripts\RacketPlayerAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
